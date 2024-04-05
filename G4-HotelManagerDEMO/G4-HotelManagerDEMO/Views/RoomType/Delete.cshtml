@@ -1,0 +1,36 @@
+﻿@model G4_HotelManagerDEMO.Models.RoomTypeModel
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h3>¿Desea eliminar la información de este tipo?</h3>
+<div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">Nombre:</dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.typeName)
+        </dd>
+        <dt class="col-sm-2">Información:</dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.typeInfo)
+        </dd>
+        <dt class="col-sm-2">Capacidad:</dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.typeCapacity)
+        </dd>
+    </dl>
+
+    <form asp-action="Delete">
+        <input asp-for="IdType" type="hidden" class="form-control" />
+        <div class="col-4 offset-2 row">
+            <div class="col">
+                <button type="submit" class="btn btn-danger w-100"><i class="fa-solid fa-trash"></i> Borrar</button>
+            </div>
+            <div class="col">
+                <a class="btn btn-info w-100" asp-action="Index"><i class="fa-solid fa-arrow-left"></i> Volver</a>
+            </div>
+        </div>
+    </form>
+</div>

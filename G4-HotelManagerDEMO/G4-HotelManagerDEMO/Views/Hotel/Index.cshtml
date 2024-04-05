@@ -1,0 +1,127 @@
+﻿@model IEnumerable<G4_HotelManagerDEMO.Models.HotelModel>
+
+@{
+    ViewData["Title"] = "Hoteles";
+}
+
+<h1>Hoteles</h1>
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+
+			<div class="mb-3 mb-3">
+				<a asp-action="Create" asp-controller="Hotel" class="btn btn-success">
+					Agregar hotel
+				</a>
+			</div>
+
+			<table class="table table-bordered table-striped table-responsive" id="hotelsTable">
+				<thead>
+					<tr>
+						<th>Nombre del hotel</th>
+						<th>Descripción</th>
+						<th>Teléfono</th>
+						<th>Correo</th>
+						<th>Dirección</th>
+						<th>Categoria</th>
+						<th>ACCIONES</th>
+					</tr>
+				</thead>
+				<tbody>
+					@foreach (var item in Model)
+					{
+						<tr>
+							<td>@Html.DisplayFor(modelItem => item.hotelName)</td>
+							<td>@Html.DisplayFor(modelItem => item.hotelInfo)</td>
+							<td>@Html.DisplayFor(modelItem => item.hotelPhone)</td>
+							<td>@Html.DisplayFor(modelItem => item.hotelEmail)</td>
+							<td>@Html.DisplayFor(modelItem => item.hotelAddress)</td>
+							<td>@Html.DisplayFor(modelItem => item.hotelCategory)</td>
+							<td class="text-center">
+								<div class="w-75 btn-group" role="group">
+									<a class="btn btn-warning mx-2" asp-action="Edit" asp-route-id="@item.IdHotel"><i class="fa-solid fa-pen-to-square"></i></a>
+									<a class="btn btn-danger mx-2" asp-action="Delete" asp-route-id="@item.IdHotel"><i class="fa-solid fa-trash"></i></a>
+								</div>
+							</td>
+						</tr>
+					}
+				</tbody>
+			</table>
+		</div>
+	</div>
+</div>
+
+@section Scripts { 
+	<script>
+		$(document).ready(function () {
+			$("#hotelsTable").DataTable({
+				dom: 'Bfrtip',
+				buttons: [
+					{
+						extend: 'csv',
+						exportOptions: {
+							columns: ':not(:last-child)'
+						}
+					},
+					{
+						extend: 'pdf',
+						exportOptions: {
+							columns: ':not(:last-child)'
+						}
+					},
+					{
+						extend: 'excel',
+						exportOptions: {
+							columns: ':not(:last-child)'
+						}
+					}
+				],
+				columnDefs: [
+					{
+						targets: 6,
+						orderable: false,
+						searchable: false
+					}
+				],
+				language: {
+					url: '//cdn.datatables.net/plug-ins/1.13.7/i18n/es-ES.json'
+				}
+			});
+		});
+	</script>
+
+	@if (TempData["editHotel"] != null)
+	{
+		<script>
+			Toastify({
+				text: "¡Hotel editado!",
+				duration: 3000,
+				newWindow: true,
+				gravity: "top",
+				position: "right",
+				stopOnFocus: true,
+				style: {
+					background: "linear-gradient(to right, #00b09b, #96c93d)",
+				},
+			}).showToast();
+		</script>
+	}
+
+	@if (TempData["deleteHotel"] != null)
+	{
+		<script>
+			Toastify({
+				text: "Se eliminó el hotel...",
+				duration: 3000,
+				newWindow: true,
+				gravity: "top",
+				position: "right",
+				stopOnFocus: true,
+				style: {
+					background: "linear-gradient(to right, #00b09b, #96c93d)",
+				},
+			}).showToast();
+		</script>
+	}
+}

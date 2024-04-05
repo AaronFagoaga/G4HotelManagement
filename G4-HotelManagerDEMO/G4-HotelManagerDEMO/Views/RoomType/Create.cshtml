@@ -1,0 +1,57 @@
+﻿@model RoomTypeModel;
+@{
+    ViewData["Title"] = "Nuevo tipo";
+}
+
+<h1>Nuevo Tipo</h1>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+
+            <div asp-validation-summary="ModelOnly"></div>
+
+            <form asp-action="Create" onsubmit="return confirmAction();">
+                @Html.AntiForgeryToken()
+                <div class="mb-3">
+                    <label asp-for="typeName" class="form-label">Nombres</label>
+                    <input asp-for="typeName" type="text" class="form-control" />
+                    <span asp-validation-for="typeName" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="typeInfo" class="form-label">Descripcion</label>
+                    <input asp-for="typeInfo" type="text" class="form-control" />
+                    <span asp-validation-for="typeInfo" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="typeCapacity" class="form-label">Capacidad</label>
+                    <input asp-for="typeCapacity" type="text" class="form-control" />
+                    <span asp-validation-for="typeCapacity" class="text-danger"></span>
+                </div>
+                <button type="submit" class="btn btn-primary">Aceptar</button>
+                <a href="@Url.Action("Index", "Hotel")" class="btn btn-secondary">Cancelar</a>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+
+    <script>
+        function confirmAction() {
+            if (confirm('¿Estás seguro de agregar este tipo?')) {
+                return true; // Si el usuario hace clic en "Aceptar", el formulario se envía al servidor
+            } else {
+                window.location.href = '@Url.Action("Index", "RoomType")'; // Redirigir al usuario al índice si hace clic en "Cancelar"
+                return false; // Devolver false para cancelar el envío del formulario
+            }
+        }
+    </script>
+}
