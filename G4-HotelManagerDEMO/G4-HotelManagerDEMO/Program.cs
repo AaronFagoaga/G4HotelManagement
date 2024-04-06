@@ -1,6 +1,7 @@
 using G4_HotelManagerDEMO.Data;
 using G4_HotelManagerDEMO.Repositories.RoomTypes;
 using G4_HotelManagerDEMO.Repositories.Hotels;
+using G4_HotelManagerDEMO.Repositories.Cliente;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,6 +10,8 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddSingleton<ISqlDataAccess, SqlDataAccess>();
 builder.Services.AddScoped<IHotelRepository, HotelRepository>();
 builder.Services.AddScoped<IRoomTypeRepository, RoomTypeRepository>();
+builder.Services.AddScoped<IClientRepository, ClientRepository>();
+
 
 var app = builder.Build();
 

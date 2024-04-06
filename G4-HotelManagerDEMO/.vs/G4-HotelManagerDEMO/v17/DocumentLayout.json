@@ -1,30 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Android\\VS repos\\G4-HotelManagerDEMO\\",
+  "WorkspaceRootPath": "C:\\Desktop\\Escritorio 2024\\Paginas Web Activas\\HotelManagement\\G4HotelManagement\\G4-HotelManagerDEMO\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5727CD6C-CFB2-4CFA-8BF4-5E24C990A121}|G4-HotelManagerDEMO\\G4-HotelManagerDEMO.csproj|d:\\android\\vs repos\\g4-hotelmanagerdemo\\g4-hotelmanagerdemo\\repositories\\roomtypes\\roomtyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5727CD6C-CFB2-4CFA-8BF4-5E24C990A121}|G4-HotelManagerDEMO\\G4-HotelManagerDEMO.csproj|solutionrelative:g4-hotelmanagerdemo\\repositories\\roomtypes\\roomtyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5727CD6C-CFB2-4CFA-8BF4-5E24C990A121}|G4-HotelManagerDEMO\\G4-HotelManagerDEMO.csproj|c:\\desktop\\escritorio 2024\\paginas web activas\\hotelmanagement\\g4hotelmanagement\\g4-hotelmanagerdemo\\g4-hotelmanagerdemo\\views\\client\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5727CD6C-CFB2-4CFA-8BF4-5E24C990A121}|G4-HotelManagerDEMO\\G4-HotelManagerDEMO.csproj|solutionrelative:g4-hotelmanagerdemo\\views\\client\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5727CD6C-CFB2-4CFA-8BF4-5E24C990A121}|G4-HotelManagerDEMO\\G4-HotelManagerDEMO.csproj|d:\\android\\vs repos\\g4-hotelmanagerdemo\\g4-hotelmanagerdemo\\repositories\\hotels\\ihotelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5727CD6C-CFB2-4CFA-8BF4-5E24C990A121}|G4-HotelManagerDEMO\\G4-HotelManagerDEMO.csproj|solutionrelative:g4-hotelmanagerdemo\\repositories\\hotels\\ihotelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5727CD6C-CFB2-4CFA-8BF4-5E24C990A121}|G4-HotelManagerDEMO\\G4-HotelManagerDEMO.csproj|d:\\android\\vs repos\\g4-hotelmanagerdemo\\g4-hotelmanagerdemo\\repositories\\roomtypes\\iroomtyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5727CD6C-CFB2-4CFA-8BF4-5E24C990A121}|G4-HotelManagerDEMO\\G4-HotelManagerDEMO.csproj|solutionrelative:g4-hotelmanagerdemo\\repositories\\roomtypes\\iroomtyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5727CD6C-CFB2-4CFA-8BF4-5E24C990A121}|G4-HotelManagerDEMO\\G4-HotelManagerDEMO.csproj|d:\\android\\vs repos\\g4-hotelmanagerdemo\\g4-hotelmanagerdemo\\repositories\\hotels\\hotelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5727CD6C-CFB2-4CFA-8BF4-5E24C990A121}|G4-HotelManagerDEMO\\G4-HotelManagerDEMO.csproj|solutionrelative:g4-hotelmanagerdemo\\repositories\\hotels\\hotelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5727CD6C-CFB2-4CFA-8BF4-5E24C990A121}|G4-HotelManagerDEMO\\G4-HotelManagerDEMO.csproj|d:\\android\\vs repos\\g4-hotelmanagerdemo\\g4-hotelmanagerdemo\\controllers\\roomtypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5727CD6C-CFB2-4CFA-8BF4-5E24C990A121}|G4-HotelManagerDEMO\\G4-HotelManagerDEMO.csproj|solutionrelative:g4-hotelmanagerdemo\\controllers\\roomtypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5727CD6C-CFB2-4CFA-8BF4-5E24C990A121}|G4-HotelManagerDEMO\\G4-HotelManagerDEMO.csproj|d:\\android\\vs repos\\g4-hotelmanagerdemo\\g4-hotelmanagerdemo\\controllers\\hotelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5727CD6C-CFB2-4CFA-8BF4-5E24C990A121}|G4-HotelManagerDEMO\\G4-HotelManagerDEMO.csproj|solutionrelative:g4-hotelmanagerdemo\\controllers\\hotelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5727CD6C-CFB2-4CFA-8BF4-5E24C990A121}|G4-HotelManagerDEMO\\G4-HotelManagerDEMO.csproj|c:\\desktop\\escritorio 2024\\paginas web activas\\hotelmanagement\\g4hotelmanagement\\g4-hotelmanagerdemo\\g4-hotelmanagerdemo\\views\\roomtype\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5727CD6C-CFB2-4CFA-8BF4-5E24C990A121}|G4-HotelManagerDEMO\\G4-HotelManagerDEMO.csproj|solutionrelative:g4-hotelmanagerdemo\\views\\roomtype\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,83 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "RoomTypeRepository.cs",
-              "DocumentMoniker": "D:\\Android\\VS repos\\G4-HotelManagerDEMO\\G4-HotelManagerDEMO\\Repositories\\RoomTypes\\RoomTypeRepository.cs",
-              "RelativeDocumentMoniker": "G4-HotelManagerDEMO\\Repositories\\RoomTypes\\RoomTypeRepository.cs",
-              "ToolTip": "D:\\Android\\VS repos\\G4-HotelManagerDEMO\\G4-HotelManagerDEMO\\Repositories\\RoomTypes\\RoomTypeRepository.cs",
-              "RelativeToolTip": "G4-HotelManagerDEMO\\Repositories\\RoomTypes\\RoomTypeRepository.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAYwCoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-05T05:53:11.023Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "HotelRepository.cs",
-              "DocumentMoniker": "D:\\Android\\VS repos\\G4-HotelManagerDEMO\\G4-HotelManagerDEMO\\Repositories\\Hotels\\HotelRepository.cs",
-              "RelativeDocumentMoniker": "G4-HotelManagerDEMO\\Repositories\\Hotels\\HotelRepository.cs",
-              "ToolTip": "D:\\Android\\VS repos\\G4-HotelManagerDEMO\\G4-HotelManagerDEMO\\Repositories\\Hotels\\HotelRepository.cs",
-              "RelativeToolTip": "G4-HotelManagerDEMO\\Repositories\\Hotels\\HotelRepository.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAYwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-05T05:59:34.195Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "HotelController.cs",
-              "DocumentMoniker": "D:\\Android\\VS repos\\G4-HotelManagerDEMO\\G4-HotelManagerDEMO\\Controllers\\HotelController.cs",
-              "RelativeDocumentMoniker": "G4-HotelManagerDEMO\\Controllers\\HotelController.cs",
-              "ToolTip": "D:\\Android\\VS repos\\G4-HotelManagerDEMO\\G4-HotelManagerDEMO\\Controllers\\HotelController.cs",
-              "RelativeToolTip": "G4-HotelManagerDEMO\\Controllers\\HotelController.cs",
-              "ViewState": "AQIAACoAAAAAAAAAAAAowAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-05T06:01:04.723Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RoomTypeController.cs",
-              "DocumentMoniker": "D:\\Android\\VS repos\\G4-HotelManagerDEMO\\G4-HotelManagerDEMO\\Controllers\\RoomTypeController.cs",
-              "RelativeDocumentMoniker": "G4-HotelManagerDEMO\\Controllers\\RoomTypeController.cs",
-              "ToolTip": "D:\\Android\\VS repos\\G4-HotelManagerDEMO\\G4-HotelManagerDEMO\\Controllers\\RoomTypeController.cs",
-              "RelativeToolTip": "G4-HotelManagerDEMO\\Controllers\\RoomTypeController.cs",
-              "ViewState": "AQIAACgAAAAAAAAAAAAkwE0AAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-05T05:58:06.059Z",
-              "IsPinned": true,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Desktop\\Escritorio 2024\\Paginas Web Activas\\HotelManagement\\G4HotelManagement\\G4-HotelManagerDEMO\\G4-HotelManagerDEMO\\Views\\Client\\Create.cshtml",
+              "RelativeDocumentMoniker": "G4-HotelManagerDEMO\\Views\\Client\\Create.cshtml",
+              "ToolTip": "C:\\Desktop\\Escritorio 2024\\Paginas Web Activas\\HotelManagement\\G4HotelManagement\\G4-HotelManagerDEMO\\G4-HotelManagerDEMO\\Views\\Client\\Create.cshtml",
+              "RelativeToolTip": "G4-HotelManagerDEMO\\Views\\Client\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-06T03:19:42.775Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "IHotelRepository.cs",
-              "DocumentMoniker": "D:\\Android\\VS repos\\G4-HotelManagerDEMO\\G4-HotelManagerDEMO\\Repositories\\Hotels\\IHotelRepository.cs",
-              "RelativeDocumentMoniker": "G4-HotelManagerDEMO\\Repositories\\Hotels\\IHotelRepository.cs",
-              "ToolTip": "D:\\Android\\VS repos\\G4-HotelManagerDEMO\\G4-HotelManagerDEMO\\Repositories\\Hotels\\IHotelRepository.cs",
-              "RelativeToolTip": "G4-HotelManagerDEMO\\Repositories\\Hotels\\IHotelRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-05T06:03:40.219Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IRoomTypeRepository.cs",
-              "DocumentMoniker": "D:\\Android\\VS repos\\G4-HotelManagerDEMO\\G4-HotelManagerDEMO\\Repositories\\RoomTypes\\IRoomTypeRepository.cs",
-              "RelativeDocumentMoniker": "G4-HotelManagerDEMO\\Repositories\\RoomTypes\\IRoomTypeRepository.cs",
-              "ToolTip": "D:\\Android\\VS repos\\G4-HotelManagerDEMO\\G4-HotelManagerDEMO\\Repositories\\RoomTypes\\IRoomTypeRepository.cs",
-              "RelativeToolTip": "G4-HotelManagerDEMO\\Repositories\\RoomTypes\\IRoomTypeRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-05T06:03:26.765Z",
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Desktop\\Escritorio 2024\\Paginas Web Activas\\HotelManagement\\G4HotelManagement\\G4-HotelManagerDEMO\\G4-HotelManagerDEMO\\Views\\RoomType\\Create.cshtml",
+              "RelativeDocumentMoniker": "G4-HotelManagerDEMO\\Views\\RoomType\\Create.cshtml",
+              "ToolTip": "C:\\Desktop\\Escritorio 2024\\Paginas Web Activas\\HotelManagement\\G4HotelManagement\\G4-HotelManagerDEMO\\G4-HotelManagerDEMO\\Views\\RoomType\\Create.cshtml",
+              "RelativeToolTip": "G4-HotelManagerDEMO\\Views\\RoomType\\Create.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-06T03:19:32.04Z",
               "EditorCaption": ""
             }
           ]
