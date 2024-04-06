@@ -1,0 +1,80 @@
+﻿@model G4_HotelManagerDEMO.Models.EmployeeModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>EmployeeModel</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <form asp-action="Edit" onsubmit="return confirmAction();">
+                @Html.AntiForgeryToken()
+                <div class="mb-3">
+                    <input asp-for="IdEmployee" type="hidden" class="form-control" />
+                </div>
+            <div class="form-group">
+                <label asp-for="emploName" class="control-label">Nombre del empleado</label>
+                <input asp-for="emploName" class="form-control" />
+                <span asp-validation-for="emploName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="emploLastName" class="control-label">Apellido del empleado</label>
+                <input asp-for="emploLastName" class="form-control" />
+                <span asp-validation-for="emploLastName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="emploJob" class="control-label">Trabajo del empleado</label>
+                <input asp-for="emploJob" class="form-control" />
+                <span asp-validation-for="emploJob" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="emploAge" class="control-label">Edad</label>
+                <input asp-for="emploAge" class="form-control" />
+                <span asp-validation-for="emploAge" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="emploEmail" class="control-label">Email</label>
+                <input asp-for="emploEmail" class="form-control" />
+                <span asp-validation-for="emploEmail" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="emploPhone" class="control-label">Numero de telefono</label>
+                <input asp-for="emploPhone" class="form-control" />
+                <span asp-validation-for="emploPhone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts{
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+
+    <script>
+
+        function confirmAction() {
+            if (confirm('¿Estás seguro de editar este empleado?')) {
+                return true; // Si el usuario hace clic en "Aceptar", el formulario se envía al servidor
+            } else {
+                window.location.href = '@Url.Action("Index", "Empleado")'; // Redirigir al usuario al índice si hace clic en "Cancelar"
+                return false; // Devolver false para cancelar el envío del formulario
+            }
+        }
+    </script>
+    }

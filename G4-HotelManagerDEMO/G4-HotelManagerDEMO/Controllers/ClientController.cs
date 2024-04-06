@@ -107,7 +107,7 @@ namespace G4_HotelManagerDEMO.Controllers
             }
             catch (Exception ex)
             {
-                TempData["DeleteClient"] = ex.Message;
+                TempData["deleteClient"] = ex.Message;
 
                 return View(client);
             }

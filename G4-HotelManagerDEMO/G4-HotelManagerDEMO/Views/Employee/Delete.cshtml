@@ -1,0 +1,51 @@
+﻿@model G4_HotelManagerDEMO.Models.EmployeeModel
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Delete</h1>
+
+<h3>Desea Eliminar este empleado?</h3>
+<div>
+    <h4>EmployeeModel</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">Nombre:</dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.emploName)
+        </dd>
+        <dt class="col-sm-2">Apellido:</dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.emploLastName)
+        </dd>
+        <dt class="col-sm-2">Trabajo:</dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.emploJob)
+        </dd>
+        <dt class="col-sm-2">Edad:</dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.emploAge)
+        </dd>
+        <dt class="col-sm-2">Correo electrónico:</dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.emploEmail)
+        </dd>
+        <dt class="col-sm-2">Numero telefonico</dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.emploPhone)
+        </dd>
+    </dl>
+
+    <form asp-action="Delete">
+        <input asp-for="IdEmployee" type="hidden" class="form-control" />
+        <div class="col-4 offset-2 row">
+            <div class="col">
+                <button type="submit" class="btn btn-danger w-100"><i class="fa-solid fa-trash"></i> Borrar</button>
+            </div>
+            <div class="col">
+                <a class="btn btn-info w-100" asp-action="Index"><i class="fa-solid fa-arrow-left"></i> Volver</a>
+            </div>
+        </div>
+    </form>
+</div>

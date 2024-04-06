@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Desktop\\Escritorio 2024\\Paginas Web Activas\\HotelManagement\\G4HotelManagement\\G4-HotelManagerDEMO\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5727CD6C-CFB2-4CFA-8BF4-5E24C990A121}|G4-HotelManagerDEMO\\G4-HotelManagerDEMO.csproj|c:\\desktop\\escritorio 2024\\paginas web activas\\hotelmanagement\\g4hotelmanagement\\g4-hotelmanagerdemo\\g4-hotelmanagerdemo\\views\\client\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5727CD6C-CFB2-4CFA-8BF4-5E24C990A121}|G4-HotelManagerDEMO\\G4-HotelManagerDEMO.csproj|solutionrelative:g4-hotelmanagerdemo\\views\\client\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{5727CD6C-CFB2-4CFA-8BF4-5E24C990A121}|G4-HotelManagerDEMO\\G4-HotelManagerDEMO.csproj|c:\\desktop\\escritorio 2024\\paginas web activas\\hotelmanagement\\g4hotelmanagement\\g4-hotelmanagerdemo\\g4-hotelmanagerdemo\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5727CD6C-CFB2-4CFA-8BF4-5E24C990A121}|G4-HotelManagerDEMO\\G4-HotelManagerDEMO.csproj|solutionrelative:g4-hotelmanagerdemo\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5727CD6C-CFB2-4CFA-8BF4-5E24C990A121}|G4-HotelManagerDEMO\\G4-HotelManagerDEMO.csproj|c:\\desktop\\escritorio 2024\\paginas web activas\\hotelmanagement\\g4hotelmanagement\\g4-hotelmanagerdemo\\g4-hotelmanagerdemo\\views\\roomtype\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5727CD6C-CFB2-4CFA-8BF4-5E24C990A121}|G4-HotelManagerDEMO\\G4-HotelManagerDEMO.csproj|solutionrelative:g4-hotelmanagerdemo\\views\\roomtype\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{5727CD6C-CFB2-4CFA-8BF4-5E24C990A121}|G4-HotelManagerDEMO\\G4-HotelManagerDEMO.csproj|c:\\desktop\\escritorio 2024\\paginas web activas\\hotelmanagement\\g4hotelmanagement\\g4-hotelmanagerdemo\\g4-hotelmanagerdemo\\views\\client\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5727CD6C-CFB2-4CFA-8BF4-5E24C990A121}|G4-HotelManagerDEMO\\G4-HotelManagerDEMO.csproj|solutionrelative:g4-hotelmanagerdemo\\views\\client\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Desktop\\Escritorio 2024\\Paginas Web Activas\\HotelManagement\\G4HotelManagement\\G4-HotelManagerDEMO\\G4-HotelManagerDEMO\\Views\\Client\\Create.cshtml",
-              "RelativeDocumentMoniker": "G4-HotelManagerDEMO\\Views\\Client\\Create.cshtml",
-              "ToolTip": "C:\\Desktop\\Escritorio 2024\\Paginas Web Activas\\HotelManagement\\G4HotelManagement\\G4-HotelManagerDEMO\\G4-HotelManagerDEMO\\Views\\Client\\Create.cshtml",
-              "RelativeToolTip": "G4-HotelManagerDEMO\\Views\\Client\\Create.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Desktop\\Escritorio 2024\\Paginas Web Activas\\HotelManagement\\G4HotelManagement\\G4-HotelManagerDEMO\\G4-HotelManagerDEMO\\Views\\Employee\\Index.cshtml",
+              "RelativeDocumentMoniker": "G4-HotelManagerDEMO\\Views\\Employee\\Index.cshtml",
+              "ToolTip": "C:\\Desktop\\Escritorio 2024\\Paginas Web Activas\\HotelManagement\\G4HotelManagement\\G4-HotelManagerDEMO\\G4-HotelManagerDEMO\\Views\\Employee\\Index.cshtml",
+              "RelativeToolTip": "G4-HotelManagerDEMO\\Views\\Employee\\Index.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACIAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-06T03:19:42.775Z",
+              "WhenOpened": "2024-04-06T19:44:49.104Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Desktop\\Escritorio 2024\\Paginas Web Activas\\HotelManagement\\G4HotelManagement\\G4-HotelManagerDEMO\\G4-HotelManagerDEMO\\Views\\RoomType\\Create.cshtml",
-              "RelativeDocumentMoniker": "G4-HotelManagerDEMO\\Views\\RoomType\\Create.cshtml",
-              "ToolTip": "C:\\Desktop\\Escritorio 2024\\Paginas Web Activas\\HotelManagement\\G4HotelManagement\\G4-HotelManagerDEMO\\G4-HotelManagerDEMO\\Views\\RoomType\\Create.cshtml",
-              "RelativeToolTip": "G4-HotelManagerDEMO\\Views\\RoomType\\Create.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Desktop\\Escritorio 2024\\Paginas Web Activas\\HotelManagement\\G4HotelManagement\\G4-HotelManagerDEMO\\G4-HotelManagerDEMO\\Views\\Client\\Delete.cshtml",
+              "RelativeDocumentMoniker": "G4-HotelManagerDEMO\\Views\\Client\\Delete.cshtml",
+              "ToolTip": "C:\\Desktop\\Escritorio 2024\\Paginas Web Activas\\HotelManagement\\G4HotelManagement\\G4-HotelManagerDEMO\\G4-HotelManagerDEMO\\Views\\Client\\Delete.cshtml",
+              "RelativeToolTip": "G4-HotelManagerDEMO\\Views\\Client\\Delete.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACAAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-06T03:19:32.04Z",
+              "WhenOpened": "2024-04-06T19:38:42.806Z",
               "EditorCaption": ""
             }
           ]
