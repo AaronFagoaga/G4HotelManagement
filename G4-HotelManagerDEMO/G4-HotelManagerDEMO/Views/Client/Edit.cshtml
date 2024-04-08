@@ -4,9 +4,7 @@
     ViewData["Title"] = "Edit";
 }
 
-<h1>Editar</h1>
-
-<h4>Editar Clientes</h4>
+<h1>Editar información de cliente</h1>
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -41,17 +39,18 @@
                 <input asp-for="clientPhone" class="form-control" />
                 <span asp-validation-for="clientPhone" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
+            <br />
+            <div class="col-8 offset-4 row">
+                <div class="col">
+                    <button type="submit" class="btn btn-info w-100"><i class="fa-solid fa-check"></i></button>
+                </div>
+                <div class="col">
+                    <a class="btn btn-danger w-100" asp-action="Index"><i class="fa-solid fa-xmark"></i></a>
+                </div>
             </div>
         </form>
     </div>
 </div>
-
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
-
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }

@@ -1,12 +1,10 @@
 ﻿@model G4_HotelManagerDEMO.Models.ClientModel
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Agregar cliente";
 }
 
 <h1>Agregar Cliente</h1>
-
-<h4>Create Client</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -37,15 +35,13 @@
                 <input asp-for="clientPhone" class="form-control" />
                 <span asp-validation-for="clientPhone" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
-            </div>
+            <br />
+            <div >
+                <button type="submit" class="btn btn-primary">Aceptar</button>
+                <a href="@Url.Action("Index", "Client")" class="btn btn-secondary">Cancelar</a>
+            </div> 
         </form>
     </div>
-</div>
-
-<div>
-    <a asp-action="Index">Back to List</a>
 </div>
 
 @section Scripts {
@@ -69,5 +65,4 @@
     </script>
 }    @{
     await Html.RenderPartialAsync("_ValidationScriptsPartial");
-}
 }

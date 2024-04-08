@@ -1,0 +1,116 @@
+﻿@model IEnumerable<ReservationModel>
+@{
+	ViewData["Title"] = "Reservaciones";
+}
+
+<h1>Reservaciones</h1>
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+
+			<div class="mb-3 mb-3">
+				<a asp-action="Create" asp-controller="Reservation" class="btn btn-success">
+					Nueva reservación
+				</a>
+			</div>
+
+			@if (TempData["message"] != null)
+			{
+				<div class="alert alert-primary" role="alert">
+					@TempData["message"]
+				</div>
+			}
+
+			<table class="table table-bordered table-striped table-responsive" id="reservationTable">
+				<thead>
+					<tr>
+						<td>Reservación ID</td>
+						<td>Habitación</td>
+						<td>Cliente</td>
+						<td>arrivalDate</td>
+						<td>exitDate</td>
+						<td>Precio de reservación</td>
+						<td>Empleado</td>
+						<td>Acciones</td>
+					</tr>
+				</thead>
+				<tbody>
+					@foreach (var reservation in Model)
+					{
+						<tr>
+							<td>@Html.DisplayFor(item => reservation.IdReservation)</td>
+							<td>@reservation.Room?.roomName</td>
+							<td>@reservation.Client?.clientName</td>
+							<td>@Html.DisplayFor(item => reservation.arrivalDate.Day)/
+								@Html.DisplayFor(item => reservation.arrivalDate.Month)/
+								@Html.DisplayFor(item => reservation.arrivalDate.Year)
+							</td>
+							<td>@Html.DisplayFor(item => reservation.exitDate.Day)/
+								@Html.DisplayFor(item => reservation.exitDate.Month)/
+								@Html.DisplayFor(item => reservation.exitDate.Year)
+							</td>
+							<td>$ @Html.DisplayFor(item => reservation.reservationPrice)</td>
+							<td>@reservation.Employee?.emploName</td>
+							<td>
+								<a asp-controller="Reservation"
+								   asp-action="Edit"
+								   asp-route-id="@reservation.IdReservation"
+								   class="btn btn-primary">
+									Editar
+								</a>
+								<a asp-controller="Reservation"
+								   asp-action="Delete"
+								   asp-route-id="@reservation.IdReservation"
+								   class="btn btn-danger">
+									Eliminar
+								</a>
+							</td>
+						</tr>
+					}
+				</tbody>
+			</table>
+		</div>
+	</div>
+</div>
+
+@section Scripts {
+	<script>
+		$(document).ready(function () {
+			$("#reservationTable").DataTable({
+				dom: 'Bfrtip',
+				buttons: [
+					{
+						extend: 'csv',
+						exportOptions: {
+							columns: ':not(:last-child)'
+						}
+					},
+					{
+						extend: 'pdf',
+						exportOptions: {
+							columns: ':not(:last-child)'
+						}
+					},
+					{
+						extend: 'excel',
+						exportOptions: {
+							columns: ':not(:last-child)'
+						}
+					}
+				],
+				columnDefs: [
+					{
+						targets: 7,
+						orderable: false,
+						searchable: false
+					}
+				],
+				language: {
+					url: '//cdn.datatables.net/plug-ins/1.13.7/i18n/es-ES.json'
+				}
+			});
+		});
+	</script>
+}
+

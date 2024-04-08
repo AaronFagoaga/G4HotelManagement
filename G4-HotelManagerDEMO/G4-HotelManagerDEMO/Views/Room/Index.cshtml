@@ -1,0 +1,110 @@
+﻿@model IEnumerable<RoomModel>
+@{
+	ViewData["Title"] = "Habitaciones";
+}
+
+<h1>Habitaciones</h1>
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+
+			<div class="mb-3 mb-3">
+				<a asp-action="Create" asp-controller="Room" class="btn btn-success">
+					Nueva habitación
+				</a>
+			</div>
+
+			@if (TempData["message"] != null)
+			{
+				<div class="alert alert-primary" role="alert">
+					@TempData["message"]
+				</div>
+			}
+
+			<table class="table table-bordered table-striped table-responsive" id="roomTable">
+				<thead>
+					<tr>
+						<td>Habitación ID</td>
+						<td>Nombre</td>
+						<td>Información</td>
+						<td>Tipo de habitación</td>
+						<td>Precio</td>
+						<td>Estado</td>
+						<td>Hotel</td>
+						<td>Acciones</td>
+					</tr>
+				</thead>
+				<tbody>
+					@foreach (var room in Model)
+					{
+						<tr>
+							<td>@Html.DisplayFor(item => room.IdRoom)</td>
+							<td>@Html.DisplayFor(item => room.roomName)</td>
+							<td>@Html.DisplayFor(item => room.roomInfo)</td>
+							<td>@room.RoomType?.typeName</td>
+							<td>$ @Html.DisplayFor(item => room.roomPrice)</td>
+							<td>@Html.DisplayFor(item => room.roomStatus)</td>
+							<td>@room.Hotel?.hotelName</td>
+							<td>
+								<a asp-controller="Room"
+								   asp-action="Edit"
+								   asp-route-id="@room.IdRoom"
+								   class="btn btn-primary">
+									Editar
+								</a>
+								<a asp-controller="Room"
+								   asp-action="Delete"
+								   asp-route-id="@room.IdRoom"
+								   class="btn btn-danger">
+									Eliminar
+								</a>
+							</td>
+						</tr>
+					}
+				</tbody>
+			</table>
+		</div>
+	</div>
+</div>
+
+@section Scripts {
+	<script>
+		$(document).ready(function () {
+			$("#roomTable").DataTable({
+				dom: 'Bfrtip',
+				buttons: [
+					{
+						extend: 'csv',
+						exportOptions: {
+							columns: ':not(:last-child)'
+						}
+					},
+					{
+						extend: 'pdf',
+						exportOptions: {
+							columns: ':not(:last-child)'
+						}
+					},
+					{
+						extend: 'excel',
+						exportOptions: {
+							columns: ':not(:last-child)'
+						}
+					}
+				],
+				columnDefs: [
+					{
+						targets: 7,
+						orderable: false,
+						searchable: false
+					}
+				],
+				language: {
+					url: '//cdn.datatables.net/plug-ins/1.13.7/i18n/es-ES.json'
+				}
+			});
+		});
+	</script>
+}
+

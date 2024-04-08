@@ -1,0 +1,121 @@
+﻿@model ReservationModel
+
+@{
+    ViewData["Title"] = "Editar reservación";
+}
+
+<h1>Editar reservación</h1>
+<hr />
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <form asp-action="Edit">
+                @Html.AntiForgeryToken()
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                <div class="mb-3">
+                    <input asp-for="IdReservation" type="hidden" class="form-control" />
+                </div>
+                <div class="mb-3">
+                    <label asp-for="IdRoom" class="form-label">Habitación</label>
+                    <select asp-for="IdRoom"
+                            asp-items="@ViewBag.Rooms"
+                            class="form-select">
+                        <option value="">Seleccione</option>
+                    </select>
+                    <span asp-validation-for="IdRoom" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="IdClient" class="form-label">Cliente</label>
+                    <select asp-for="IdClient"
+                            asp-items="@ViewBag.Clients"
+                            class="form-select">
+                        <option value="">Seleccione</option>
+                    </select>
+                    <span asp-validation-for="IdClient" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="arrivalDate" class="form-label">Fecha de llegada</label>
+                    <input asp-for="arrivalDate" type="date" id="ArrivalDate" class="form-control" />
+                    <span asp-validation-for="arrivalDate" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="exitDate" class="form-label">Fecha de salida</label>
+                    <input asp-for="exitDate" type="date" id="ExitDate" class="form-control" />
+                    <span asp-validation-for="exitDate" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="reservationPrice" class="form-label">Precio de reservación</label>
+                    <input asp-for="reservationPrice" type="number" class="form-control" />
+                    <span asp-validation-for="reservationPrice" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="IdEmployee" class="form-label">Empleado</label>
+                    <select asp-for="IdEmployee"
+                            asp-items="@ViewBag.Employees"
+                            class="form-select">
+                        <option value="">Seleccione</option>
+                    </select>
+                    <span asp-validation-for="IdEmployee" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <input type="submit" value="Guardar" class="btn btn-primary" />
+
+                    <a asp-action="Index" class="btn btn-danger">Regresar al listado</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        var today = new Date();
+        var dd = today.getDate();
+        var mm = today.getMonth() + 1;
+        var yyyy = today.getFullYear();
+        if (dd < 10) {
+            dd = '0' + dd;
+        }
+        if (mm < 10) {
+            mm = '0' + mm;
+        }
+        var minDate = yyyy + '-' + mm + '-' + dd;
+        document.getElementById('ArrivalDate').min = minDate;
+
+
+    </script>
+    <script>
+
+        function getCurrentDate() {
+            var today = new Date();
+            var dd = today.getDate();
+            var mm = today.getMonth() + 1;
+            var yyyy = today.getFullYear();
+
+            if (dd < 10) {
+                dd = '0' + dd;
+            }
+            if (mm < 10) {
+                mm = '0' + mm;
+            }
+
+            return yyyy + '-' + mm + '-' + dd;
+        }
+        var arrivalDateInput = document.getElementById('ArrivalDate');
+        var exitDateInput = document.getElementById('ExitDate');
+
+        arrivalDateInput.addEventListener('change', function () {
+            var minDate = getCurrentDate();
+
+            if (arrivalDateInput.value !== '') {
+                minDate = arrivalDateInput.value;
+            }
+
+            exitDateInput.min = minDate;
+        });
+
+    </script>
+}

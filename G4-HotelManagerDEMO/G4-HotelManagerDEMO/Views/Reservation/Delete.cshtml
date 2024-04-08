@@ -1,0 +1,45 @@
+﻿@model ReservationModel
+
+@{
+    ViewData["Title"] = "Eliminar reservación";
+}
+<h3>¿Está seguro que desea eliminar esta reservación?</h3>
+
+<div>
+    <dl class="row">
+        <dt class="col-sm-2">
+            Reservación N°:
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.IdReservation)
+        </dd>
+        <dt class="col-sm-2">
+            Llegada:
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(item => Model.arrivalDate.Day)/
+            @Html.DisplayFor(item => Model.arrivalDate.Month)/
+            @Html.DisplayFor(item => Model.arrivalDate.Year)
+        </dd>
+        <dt class="col-sm-2">
+            Salida:
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(item => Model.exitDate.Day)/
+            @Html.DisplayFor(item => Model.exitDate.Month)/
+            @Html.DisplayFor(item => Model.exitDate.Year)
+        </dd>
+        <dt class="col-sm-2">
+            Precio:
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.reservationPrice)
+        </dd>
+    </dl>
+
+    <form asp-action="Delete">
+        <input asp-for="IdReservation" type="hidden" class="form-control" />
+        <input type="submit" value="Eliminar" class="btn btn-danger" />
+        <a asp-action="Index" class="btn btn-primary">Regresar al listado</a>
+    </form>
+</div>

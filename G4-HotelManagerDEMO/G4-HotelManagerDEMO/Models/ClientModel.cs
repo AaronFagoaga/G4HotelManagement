@@ -7,18 +7,26 @@ namespace G4_HotelManagerDEMO.Models
         public int IdClient { get; set; }
 
         [Required(ErrorMessage = "Ingrese el nombre del Cliente")]
-        public string clientName { get; set; }
+		[Display(Name = "Nombre")]
+		[RegularExpression(@"^[a-zA-Z\s]+$", ErrorMessage = "El nombre no debe contener números")]
+		public string clientName { get; set; }
 
         [Required(ErrorMessage = "Ingrese el apellido del cliente")]
-        public string clientLastName { get; set; }
+		[Display(Name = "Apellido")]
+		[RegularExpression(@"^[a-zA-Z\s]+$", ErrorMessage = "El apellido no debe contener números")]
+		public string clientLastName { get; set; }
 
-        public int clientAge { get; set; }
+		[RegularExpression(@"^(?:[1-9][0-9]?|100)$", ErrorMessage = "Ingrese una edad real.")]
+		[Display(Name = "Edad")]
+		public int clientAge { get; set; }
 
         [EmailAddress(ErrorMessage = "Ingrese un correo eléctronico válido.")]
-        public string clientEmail { get; set; }
+		[Display(Name = "Correo")]
+		public string clientEmail { get; set; }
 
         [RegularExpression(@"^\d{4}-\d{4}$", ErrorMessage = "El formato del teléfono debe ser ####-####.")]
-        public string clientPhone { get; set; }
+		[Display(Name = "Telefono")]
+		public string clientPhone { get; set; }
 
     }
 }
