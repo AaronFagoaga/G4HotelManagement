@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("G4-HotelManagerDEMO")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c877d6633a169a50ce5d04e6b2aaf05cc3b00b57")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fdd0db3d3c2eb6bc3ac6fab4b42d6d1f8f4f48a1")]
 [assembly: System.Reflection.AssemblyProductAttribute("G4-HotelManagerDEMO")]
 [assembly: System.Reflection.AssemblyTitleAttribute("G4-HotelManagerDEMO")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

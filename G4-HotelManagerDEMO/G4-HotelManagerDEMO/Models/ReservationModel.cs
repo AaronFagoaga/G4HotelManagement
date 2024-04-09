@@ -15,11 +15,13 @@ namespace G4_HotelManagerDEMO.Models
 
 		[Required(ErrorMessage = "Seleccione una fecha válida")]
 		[Display(Name = "Fecha de llegada")]
-		public DateTime arrivalDate { get; set; }
+        [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
+        public DateTime arrivalDate { get; set; }
 
 		[Display(Name = "Fecha de salida")]
 		[Required(ErrorMessage = "Seleccione una fecha válida")]
-		public DateTime exitDate { get; set; }
+        [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
+        public DateTime exitDate { get; set; }
 
 		[Required(ErrorMessage = "Ingrese un número válido para el precio de reserva")]
         [RegularExpression(@"^\d+(\.\d+)?$", ErrorMessage = "El precio debe ser un número válido")]

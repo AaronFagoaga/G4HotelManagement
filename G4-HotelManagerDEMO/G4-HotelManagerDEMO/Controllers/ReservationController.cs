@@ -1,6 +1,5 @@
 ﻿using G4_HotelManagerDEMO.Models;
 using G4_HotelManagerDEMO.Repositories.Reservations;
-using G4_HotelManagerDEMO.Services.Email;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -10,16 +9,14 @@ namespace G4_HotelManagerDEMO.Controllers
     public class ReservationController : Controller
     {
         private readonly IReservationRepository _reservationRepository;
-        private readonly IEmailService _emailService;
 
         private SelectList _roomstList;
         private SelectList _clientsList;
         private SelectList _employeesList;
 
-        public ReservationController(IReservationRepository reservationRepository, IEmailService emailService)
+        public ReservationController(IReservationRepository reservationRepository)
         {
             _reservationRepository = reservationRepository;
-            _emailService = emailService;
 
             //Listas
             _roomstList = new SelectList(
@@ -31,7 +28,7 @@ namespace G4_HotelManagerDEMO.Controllers
                 _reservationRepository.GetAllClient(),
                 nameof(ClientModel.IdClient),
                 nameof(ClientModel.clientName)
-            );
+			);
             _employeesList = new SelectList(
                 _reservationRepository.GetAllEmployees(),
                 nameof(EmployeeModel.IdEmployee),
@@ -70,16 +67,7 @@ namespace G4_HotelManagerDEMO.Controllers
             {
                 _reservationRepository.Add(reservation);
 
-                TempData["message"] = "Datos guardados correctamente.";
-
-                string emailTo = "sraaron1@GDD.com";
-                string email = "reservafacilsv@gmail.com";
-                string subject = "¡Reservación creada!";
-                string body = "Test";
-
-                _emailService.SendEmail(emailTo, email, subject, body);
-
-
+                TempData["message"] = "Reservación confirmada: Habitación ocupada.";
                 return RedirectToAction(nameof(Index));
             }
             catch (Exception ex)
@@ -179,7 +167,7 @@ namespace G4_HotelManagerDEMO.Controllers
             {
                 _reservationRepository.Delete(reservation.IdReservation);
 
-                TempData["message"] = "Dato eliminado correctamente.";
+                TempData["message"] = "Reserva eliminada: Habitación ahora disponible.";
 
                 return RedirectToAction(nameof(Index));
             }

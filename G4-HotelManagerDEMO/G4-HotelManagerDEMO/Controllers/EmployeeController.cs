@@ -1,18 +1,20 @@
 ﻿using G4_HotelManagerDEMO.Models;
 using G4_HotelManagerDEMO.Repositories.Employee;
+using G4_HotelManagerDEMO.Services.Email;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Identity.Client;
 
 namespace G4_HotelManagerDEMO.Controllers
 {
     public class EmployeeController : Controller
     {
         private readonly IEmployeeRepository _employeeRepository;
+		private readonly IEmailService _emailService;
 
-        public EmployeeController(IEmployeeRepository employeeRepositoy)
+        public EmployeeController(IEmployeeRepository employeeRepositoy, IEmailService emailService)
         {
             _employeeRepository = employeeRepositoy;
-        }
+			_emailService = emailService;
+		}
         public IActionResult Index()
         {
             return View(_employeeRepository.GetAll());
@@ -38,8 +40,14 @@ namespace G4_HotelManagerDEMO.Controllers
             {
                 _employeeRepository.Add(employee);
 
-                TempData["message"] = "Datos guardados con exito";
-                return RedirectToAction(nameof(Index));
+                TempData["message"] = "Datos guardados con exito, se envió un correo al nuevo empleado.";
+				string emailTo = employee.emploEmail;
+				string recipientName = employee.emploName + " " + employee.emploLastName;
+				string subject = "¡Bienvenido al equipo!";
+				string person = "Employee";
+
+				_emailService.SendEmail(emailTo, recipientName, subject, person);
+				return RedirectToAction(nameof(Index));
 
             }
             catch (Exception ex)

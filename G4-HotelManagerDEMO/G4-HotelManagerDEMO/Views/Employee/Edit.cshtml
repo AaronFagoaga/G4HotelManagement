@@ -4,9 +4,7 @@
     ViewData["Title"] = "Edit";
 }
 
-<h1>Edit</h1>
-
-<h4>EmployeeModel</h4>
+<h1>Editar información de empleado</h1>
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -74,7 +72,7 @@
             if (confirm('¿Estás seguro de editar este empleado?')) {
                 return true; // Si el usuario hace clic en "Aceptar", el formulario se envía al servidor
             } else {
-                window.location.href = '@Url.Action("Index", "Empleado")'; // Redirigir al usuario al índice si hace clic en "Cancelar"
+                window.location.href = '@Url.Action("Index", "Employee")'; // Redirigir al usuario al índice si hace clic en "Cancelar"
                 return false; // Devolver false para cancelar el envío del formulario
             }
         }

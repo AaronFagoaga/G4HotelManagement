@@ -1,18 +1,20 @@
 ﻿using G4_HotelManagerDEMO.Models;
 using G4_HotelManagerDEMO.Repositories.Cliente;
+using G4_HotelManagerDEMO.Services.Email;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Identity.Client;
 
 namespace G4_HotelManagerDEMO.Controllers
 {
     public class ClientController : Controller
     {
         private readonly IClientRepository _clientRepository;
+		private readonly IEmailService _emailService;
 
-        public ClientController(IClientRepository clientRepository)
+		public ClientController(IClientRepository clientRepository, IEmailService emailService)
         {
             _clientRepository = clientRepository;
-        }
+			_emailService = emailService;
+		}
 
         public IActionResult Index()
         {
@@ -37,7 +39,14 @@ namespace G4_HotelManagerDEMO.Controllers
             {
                 _clientRepository.Add(client);
 
-                TempData["message"] = "Datos guardados con exito";
+                TempData["message"] = "Datos guardados con exito, se envió un correo al cliente.";
+                string emailTo = client.clientEmail;
+                string recipientName = client.clientName + " " + client.clientLastName;
+                string subject = "¡Estás registrado!";
+                string person = "Client";
+
+                _emailService.SendEmail(emailTo, recipientName, subject, person);
+
                 return RedirectToAction(nameof(Index));
 
             }

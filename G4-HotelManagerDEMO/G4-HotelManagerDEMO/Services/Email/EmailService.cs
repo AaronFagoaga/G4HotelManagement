@@ -1,4 +1,5 @@
-﻿using MailKit.Net.Smtp;
+﻿using G4_HotelManagerDEMO.Models;
+using MailKit.Net.Smtp;
 using MimeKit;
 
 namespace G4_HotelManagerDEMO.Services.Email
@@ -26,10 +27,20 @@ namespace G4_HotelManagerDEMO.Services.Email
 
                 var builder = new BodyBuilder();
 
-                var templatePath = Path.Combine(Directory.GetCurrentDirectory(),
-                    "EmailTemplates",
-                    "reservation_email.html"
-                    );
+				var templatePath = ""; //Declarando variable de ruta de plantilla 
+				if (body == "Employee")//Si es un empleado
+                {
+					templatePath = Path.Combine(Directory.GetCurrentDirectory(),
+					"EmailTemplates",
+					"employeeMail.html"
+					);
+				}else if (body == "Client")//Si es un cliente
+                {
+					templatePath = Path.Combine(Directory.GetCurrentDirectory(),
+					"EmailTemplates",
+					"clientMail.html"
+					);
+				}
 
                 var templateContent = File.ReadAllText(templatePath);
                 templateContent = templateContent.Replace("@Name", recepientName);

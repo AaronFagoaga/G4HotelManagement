@@ -55,7 +55,7 @@ namespace G4_HotelManagerDEMO.Repositories.Rooms
 
                         return room;
                     },
-                    splitOn: "typeName,hotelName",
+                    splitOn: "typeName, hotelName",
                     commandType: CommandType.StoredProcedure);
 
                 return rooms;

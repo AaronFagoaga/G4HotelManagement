@@ -15,7 +15,7 @@ namespace G4_HotelManagerDEMO.Repositories.Reservations
         }
         public IEnumerable<RoomModel> GetAllRooms()
         {
-            string query = "SELECT IdRoom, roomName, roomPrice, roomStatus FROM tbl_Room";
+            string query = "SELECT IdRoom, roomName, roomPrice, roomStatus FROM tbl_Room WHERE roomStatus = 'Disponible'";
             using (var connection = _dataAccess.GetConnection())
             {
                 return connection.Query<RoomModel>(query);
@@ -48,8 +48,8 @@ namespace G4_HotelManagerDEMO.Repositories.Reservations
 
                 var reservations = connection.Query<ReservationModel, RoomModel, ClientModel, EmployeeModel, ReservationModel>
                     (storedProcedure, (reservation, room, client, employee) => {
-                        reservation.Client = client;
                         reservation.Room = room;
+                        reservation.Client = client;
                         reservation.Employee = employee;
 
                         return reservation;
