@@ -10,7 +10,7 @@ namespace G4_HotelManagerDEMO.Services.Email
         {
             _configuration = configuration;
         }
-        public void SendEmail(string emailTo, string recepientName, string subject)
+        public void SendEmail(string emailTo, string recepientName, string subject, string body)
         {
             try
             {
@@ -31,8 +31,8 @@ namespace G4_HotelManagerDEMO.Services.Email
                     "reservation_email.html"
                     );
 
-                var templateContent = File.ReadAllText( templatePath );
-                templateContent = templateContent.Replace( "@Name", recepientName );
+                var templateContent = File.ReadAllText(templatePath);
+                templateContent = templateContent.Replace("@Name", recepientName);
                 builder.HtmlBody = templateContent;
 
                 message.Body = builder.ToMessageBody();
@@ -45,7 +45,7 @@ namespace G4_HotelManagerDEMO.Services.Email
                         false);
 
 
-                    client.Authenticate(_configuration["Mailtrap:EmailUsername"], _configuration["MailTrap:EmailFrom"]);
+                    client.Authenticate(_configuration["Mailtrap:Username"], _configuration["Mailtrap:Password"]);
 
                     client.Send(message);
                     client.Disconnect(true);

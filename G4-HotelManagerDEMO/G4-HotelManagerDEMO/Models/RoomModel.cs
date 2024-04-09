@@ -20,8 +20,8 @@ namespace G4_HotelManagerDEMO.Models
 		public int IdType { get; set; }
 
 		[Required(ErrorMessage = "Ingrese un precio válido para la habitación")]
-		[RegularExpression(@"^\d+(\.\d{1,2})?$", ErrorMessage = "El precio debe ser un número válido")]
-		[Display(Name = "Precio de la habitación")]
+        [RegularExpression(@"^\d+(\.\d+)?$", ErrorMessage = "El precio debe ser un número válido")]
+        [Display(Name = "Precio de la habitación")]
 		public decimal roomPrice { get; set; }
 
 		[Required(ErrorMessage = "Ingrese el estado de la habitación (disponible/no disponible)")]

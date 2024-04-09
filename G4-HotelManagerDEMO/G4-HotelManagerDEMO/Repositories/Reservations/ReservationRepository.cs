@@ -24,29 +24,19 @@ namespace G4_HotelManagerDEMO.Repositories.Reservations
 
         public IEnumerable<ClientModel> GetAllClient()
         {
+            string query = "SELECT IdClient, clientName, clientLastName, clientAge, clientEmail FROM tbl_Client";
             using (var connection = _dataAccess.GetConnection())
             {
-                string storeProcedure = "spRClient_GetAll";
-
-                return
-                    connection.Query<ClientModel>(
-                storeProcedure,
-                        commandType: CommandType.StoredProcedure
-                    );
+                return connection.Query<ClientModel>(query);
             }
         }
 
         public IEnumerable<EmployeeModel> GetAllEmployees()
         {
+            string query = "SELECT IdEmployee, emploName, emploLastName, emploAge, emploJob, emploEmail, emploPhone FROM tbl_Employee";
             using (var connection = _dataAccess.GetConnection())
             {
-                string storeProcedure = "spREmployees_GetAll";
-
-                return
-                    connection.Query<EmployeeModel>(
-                storeProcedure,
-                        commandType: CommandType.StoredProcedure
-                    );
+                return connection.Query<EmployeeModel>(query);
             }
         }
 
@@ -58,8 +48,8 @@ namespace G4_HotelManagerDEMO.Repositories.Reservations
 
                 var reservations = connection.Query<ReservationModel, RoomModel, ClientModel, EmployeeModel, ReservationModel>
                     (storedProcedure, (reservation, room, client, employee) => {
-                        reservation.Room = room;
                         reservation.Client = client;
+                        reservation.Room = room;
                         reservation.Employee = employee;
 
                         return reservation;

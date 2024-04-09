@@ -3,32 +3,28 @@
   "WorkspaceRootPath": "D:\\Grupo IV - DPWA\\G4HotelManagement\\G4-HotelManagerDEMO\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5727CD6C-CFB2-4CFA-8BF4-5E24C990A121}|G4-HotelManagerDEMO\\G4-HotelManagerDEMO.csproj|d:\\grupo iv - dpwa\\g4hotelmanagement\\g4-hotelmanagerdemo\\g4-hotelmanagerdemo\\models\\roommodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5727CD6C-CFB2-4CFA-8BF4-5E24C990A121}|G4-HotelManagerDEMO\\G4-HotelManagerDEMO.csproj|solutionrelative:g4-hotelmanagerdemo\\models\\roommodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5727CD6C-CFB2-4CFA-8BF4-5E24C990A121}|G4-HotelManagerDEMO\\G4-HotelManagerDEMO.csproj|d:\\grupo iv - dpwa\\g4hotelmanagement\\g4-hotelmanagerdemo\\g4-hotelmanagerdemo\\models\\reservationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5727CD6C-CFB2-4CFA-8BF4-5E24C990A121}|G4-HotelManagerDEMO\\G4-HotelManagerDEMO.csproj|solutionrelative:g4-hotelmanagerdemo\\models\\reservationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5727CD6C-CFB2-4CFA-8BF4-5E24C990A121}|G4-HotelManagerDEMO\\G4-HotelManagerDEMO.csproj|d:\\grupo iv - dpwa\\g4hotelmanagement\\g4-hotelmanagerdemo\\g4-hotelmanagerdemo\\views\\reservation\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5727CD6C-CFB2-4CFA-8BF4-5E24C990A121}|G4-HotelManagerDEMO\\G4-HotelManagerDEMO.csproj|solutionrelative:g4-hotelmanagerdemo\\views\\reservation\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5727CD6C-CFB2-4CFA-8BF4-5E24C990A121}|G4-HotelManagerDEMO\\G4-HotelManagerDEMO.csproj|d:\\grupo iv - dpwa\\g4hotelmanagement\\g4-hotelmanagerdemo\\g4-hotelmanagerdemo\\controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5727CD6C-CFB2-4CFA-8BF4-5E24C990A121}|G4-HotelManagerDEMO\\G4-HotelManagerDEMO.csproj|solutionrelative:g4-hotelmanagerdemo\\controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5727CD6C-CFB2-4CFA-8BF4-5E24C990A121}|G4-HotelManagerDEMO\\G4-HotelManagerDEMO.csproj|d:\\grupo iv - dpwa\\g4hotelmanagement\\g4-hotelmanagerdemo\\g4-hotelmanagerdemo\\services\\email\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5727CD6C-CFB2-4CFA-8BF4-5E24C990A121}|G4-HotelManagerDEMO\\G4-HotelManagerDEMO.csproj|solutionrelative:g4-hotelmanagerdemo\\services\\email\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5727CD6C-CFB2-4CFA-8BF4-5E24C990A121}|G4-HotelManagerDEMO\\G4-HotelManagerDEMO.csproj|d:\\grupo iv - dpwa\\g4hotelmanagement\\g4-hotelmanagerdemo\\g4-hotelmanagerdemo\\repositories\\reservations\\reservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5727CD6C-CFB2-4CFA-8BF4-5E24C990A121}|G4-HotelManagerDEMO\\G4-HotelManagerDEMO.csproj|solutionrelative:g4-hotelmanagerdemo\\repositories\\reservations\\reservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5727CD6C-CFB2-4CFA-8BF4-5E24C990A121}|G4-HotelManagerDEMO\\G4-HotelManagerDEMO.csproj|d:\\grupo iv - dpwa\\g4hotelmanagement\\g4-hotelmanagerdemo\\g4-hotelmanagerdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5727CD6C-CFB2-4CFA-8BF4-5E24C990A121}|G4-HotelManagerDEMO\\G4-HotelManagerDEMO.csproj|solutionrelative:g4-hotelmanagerdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5727CD6C-CFB2-4CFA-8BF4-5E24C990A121}|G4-HotelManagerDEMO\\G4-HotelManagerDEMO.csproj|d:\\grupo iv - dpwa\\g4hotelmanagement\\g4-hotelmanagerdemo\\g4-hotelmanagerdemo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{5727CD6C-CFB2-4CFA-8BF4-5E24C990A121}|G4-HotelManagerDEMO\\G4-HotelManagerDEMO.csproj|solutionrelative:g4-hotelmanagerdemo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5727CD6C-CFB2-4CFA-8BF4-5E24C990A121}|G4-HotelManagerDEMO\\G4-HotelManagerDEMO.csproj|d:\\grupo iv - dpwa\\g4hotelmanagement\\g4-hotelmanagerdemo\\g4-hotelmanagerdemo\\services\\email\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5727CD6C-CFB2-4CFA-8BF4-5E24C990A121}|G4-HotelManagerDEMO\\G4-HotelManagerDEMO.csproj|solutionrelative:g4-hotelmanagerdemo\\services\\email\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5727CD6C-CFB2-4CFA-8BF4-5E24C990A121}|G4-HotelManagerDEMO\\G4-HotelManagerDEMO.csproj|d:\\grupo iv - dpwa\\g4hotelmanagement\\g4-hotelmanagerdemo\\g4-hotelmanagerdemo\\views\\roomtype\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5727CD6C-CFB2-4CFA-8BF4-5E24C990A121}|G4-HotelManagerDEMO\\G4-HotelManagerDEMO.csproj|solutionrelative:g4-hotelmanagerdemo\\views\\roomtype\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5727CD6C-CFB2-4CFA-8BF4-5E24C990A121}|G4-HotelManagerDEMO\\G4-HotelManagerDEMO.csproj|d:\\grupo iv - dpwa\\g4hotelmanagement\\g4-hotelmanagerdemo\\g4-hotelmanagerdemo\\views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5727CD6C-CFB2-4CFA-8BF4-5E24C990A121}|G4-HotelManagerDEMO\\G4-HotelManagerDEMO.csproj|solutionrelative:g4-hotelmanagerdemo\\views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{5727CD6C-CFB2-4CFA-8BF4-5E24C990A121}|G4-HotelManagerDEMO\\G4-HotelManagerDEMO.csproj|d:\\grupo iv - dpwa\\g4hotelmanagement\\g4-hotelmanagerdemo\\g4-hotelmanagerdemo\\repositories\\reservations\\ireservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5727CD6C-CFB2-4CFA-8BF4-5E24C990A121}|G4-HotelManagerDEMO\\G4-HotelManagerDEMO.csproj|solutionrelative:g4-hotelmanagerdemo\\repositories\\reservations\\ireservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5727CD6C-CFB2-4CFA-8BF4-5E24C990A121}|G4-HotelManagerDEMO\\G4-HotelManagerDEMO.csproj|d:\\grupo iv - dpwa\\g4hotelmanagement\\g4-hotelmanagerdemo\\g4-hotelmanagerdemo\\views\\hotel\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -43,16 +39,8 @@
       "RelativeMoniker": "D:0:0:{5727CD6C-CFB2-4CFA-8BF4-5E24C990A121}|G4-HotelManagerDEMO\\G4-HotelManagerDEMO.csproj|solutionrelative:g4-hotelmanagerdemo\\views\\reservation\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5727CD6C-CFB2-4CFA-8BF4-5E24C990A121}|G4-HotelManagerDEMO\\G4-HotelManagerDEMO.csproj|d:\\grupo iv - dpwa\\g4hotelmanagement\\g4-hotelmanagerdemo\\g4-hotelmanagerdemo\\views\\reservation\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5727CD6C-CFB2-4CFA-8BF4-5E24C990A121}|G4-HotelManagerDEMO\\G4-HotelManagerDEMO.csproj|solutionrelative:g4-hotelmanagerdemo\\views\\reservation\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5727CD6C-CFB2-4CFA-8BF4-5E24C990A121}|G4-HotelManagerDEMO\\G4-HotelManagerDEMO.csproj|d:\\grupo iv - dpwa\\g4hotelmanagement\\g4-hotelmanagerdemo\\g4-hotelmanagerdemo\\views\\reservation\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5727CD6C-CFB2-4CFA-8BF4-5E24C990A121}|G4-HotelManagerDEMO\\G4-HotelManagerDEMO.csproj|solutionrelative:g4-hotelmanagerdemo\\views\\reservation\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5727CD6C-CFB2-4CFA-8BF4-5E24C990A121}|G4-HotelManagerDEMO\\G4-HotelManagerDEMO.csproj|d:\\grupo iv - dpwa\\g4hotelmanagement\\g4-hotelmanagerdemo\\g4-hotelmanagerdemo\\repositories\\reservations\\reservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5727CD6C-CFB2-4CFA-8BF4-5E24C990A121}|G4-HotelManagerDEMO\\G4-HotelManagerDEMO.csproj|solutionrelative:g4-hotelmanagerdemo\\repositories\\reservations\\reservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,116 +50,75 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ReservationRepository.cs",
+              "DocumentMoniker": "D:\\Grupo IV - DPWA\\G4HotelManagement\\G4-HotelManagerDEMO\\G4-HotelManagerDEMO\\Repositories\\Reservations\\ReservationRepository.cs",
+              "RelativeDocumentMoniker": "G4-HotelManagerDEMO\\Repositories\\Reservations\\ReservationRepository.cs",
+              "ToolTip": "D:\\Grupo IV - DPWA\\G4HotelManagement\\G4-HotelManagerDEMO\\G4-HotelManagerDEMO\\Repositories\\Reservations\\ReservationRepository.cs",
+              "RelativeToolTip": "G4-HotelManagerDEMO\\Repositories\\Reservations\\ReservationRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T21:37:17.678Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\Grupo IV - DPWA\\G4HotelManagement\\G4-HotelManagerDEMO\\G4-HotelManagerDEMO\\Views\\RoomType\\Create.cshtml",
-              "RelativeDocumentMoniker": "G4-HotelManagerDEMO\\Views\\RoomType\\Create.cshtml",
-              "ToolTip": "D:\\Grupo IV - DPWA\\G4HotelManagement\\G4-HotelManagerDEMO\\G4-HotelManagerDEMO\\Views\\RoomType\\Create.cshtml",
-              "RelativeToolTip": "G4-HotelManagerDEMO\\Views\\RoomType\\Create.cshtml",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAAC4AAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-08T21:56:52.879Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "Title": "IReservationRepository.cs",
+              "DocumentMoniker": "D:\\Grupo IV - DPWA\\G4HotelManagement\\G4-HotelManagerDEMO\\G4-HotelManagerDEMO\\Repositories\\Reservations\\IReservationRepository.cs",
+              "RelativeDocumentMoniker": "G4-HotelManagerDEMO\\Repositories\\Reservations\\IReservationRepository.cs",
+              "ToolTip": "D:\\Grupo IV - DPWA\\G4HotelManagement\\G4-HotelManagerDEMO\\G4-HotelManagerDEMO\\Repositories\\Reservations\\IReservationRepository.cs",
+              "RelativeToolTip": "G4-HotelManagerDEMO\\Repositories\\Reservations\\IReservationRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T00:05:05.963Z",
+              "IsPinned": true
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ReservationController.cs",
-              "DocumentMoniker": "D:\\Grupo IV - DPWA\\G4HotelManagement\\G4-HotelManagerDEMO\\G4-HotelManagerDEMO\\Controllers\\ReservationController.cs",
-              "RelativeDocumentMoniker": "G4-HotelManagerDEMO\\Controllers\\ReservationController.cs",
-              "ToolTip": "D:\\Grupo IV - DPWA\\G4HotelManagement\\G4-HotelManagerDEMO\\G4-HotelManagerDEMO\\Controllers\\ReservationController.cs",
-              "RelativeToolTip": "G4-HotelManagerDEMO\\Controllers\\ReservationController.cs",
-              "ViewState": "AQIAADUAAAAAAAAAAAAgwD0AAAAJAAAA",
+              "Title": "RoomModel.cs",
+              "DocumentMoniker": "D:\\Grupo IV - DPWA\\G4HotelManagement\\G4-HotelManagerDEMO\\G4-HotelManagerDEMO\\Models\\RoomModel.cs",
+              "RelativeDocumentMoniker": "G4-HotelManagerDEMO\\Models\\RoomModel.cs",
+              "ToolTip": "D:\\Grupo IV - DPWA\\G4HotelManagement\\G4-HotelManagerDEMO\\G4-HotelManagerDEMO\\Models\\RoomModel.cs",
+              "RelativeToolTip": "G4-HotelManagerDEMO\\Models\\RoomModel.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAzwBYAAABjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T22:17:16.878Z",
+              "WhenOpened": "2024-04-09T00:47:48.178Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "EmailService.cs",
-              "DocumentMoniker": "D:\\Grupo IV - DPWA\\G4HotelManagement\\G4-HotelManagerDEMO\\G4-HotelManagerDEMO\\Services\\Email\\EmailService.cs",
-              "RelativeDocumentMoniker": "G4-HotelManagerDEMO\\Services\\Email\\EmailService.cs",
-              "ToolTip": "D:\\Grupo IV - DPWA\\G4HotelManagement\\G4-HotelManagerDEMO\\G4-HotelManagerDEMO\\Services\\Email\\EmailService.cs",
-              "RelativeToolTip": "G4-HotelManagerDEMO\\Services\\Email\\EmailService.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAQwA4AAAAPAAAA",
+              "Title": "ReservationModel.cs",
+              "DocumentMoniker": "D:\\Grupo IV - DPWA\\G4HotelManagement\\G4-HotelManagerDEMO\\G4-HotelManagerDEMO\\Models\\ReservationModel.cs",
+              "RelativeDocumentMoniker": "G4-HotelManagerDEMO\\Models\\ReservationModel.cs",
+              "ToolTip": "D:\\Grupo IV - DPWA\\G4HotelManagement\\G4-HotelManagerDEMO\\G4-HotelManagerDEMO\\Models\\ReservationModel.cs",
+              "RelativeToolTip": "G4-HotelManagerDEMO\\Models\\ReservationModel.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAQwBgAAABjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T22:07:01.993Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IEmailService.cs",
-              "DocumentMoniker": "D:\\Grupo IV - DPWA\\G4HotelManagement\\G4-HotelManagerDEMO\\G4-HotelManagerDEMO\\Services\\Email\\IEmailService.cs",
-              "RelativeDocumentMoniker": "G4-HotelManagerDEMO\\Services\\Email\\IEmailService.cs",
-              "ToolTip": "D:\\Grupo IV - DPWA\\G4HotelManagement\\G4-HotelManagerDEMO\\G4-HotelManagerDEMO\\Services\\Email\\IEmailService.cs",
-              "RelativeToolTip": "G4-HotelManagerDEMO\\Services\\Email\\IEmailService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAABMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T22:05:54.667Z",
+              "WhenOpened": "2024-04-09T00:46:34.696Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Grupo IV - DPWA\\G4HotelManagement\\G4-HotelManagerDEMO\\G4-HotelManagerDEMO\\appsettings.json",
-              "RelativeDocumentMoniker": "G4-HotelManagerDEMO\\appsettings.json",
-              "ToolTip": "D:\\Grupo IV - DPWA\\G4HotelManagement\\G4-HotelManagerDEMO\\G4-HotelManagerDEMO\\appsettings.json",
-              "RelativeToolTip": "G4-HotelManagerDEMO\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-08T22:02:30.669Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Grupo IV - DPWA\\G4HotelManagement\\G4-HotelManagerDEMO\\G4-HotelManagerDEMO\\Program.cs",
-              "RelativeDocumentMoniker": "G4-HotelManagerDEMO\\Program.cs",
-              "ToolTip": "D:\\Grupo IV - DPWA\\G4HotelManagement\\G4-HotelManagerDEMO\\G4-HotelManagerDEMO\\Program.cs",
-              "RelativeToolTip": "G4-HotelManagerDEMO\\Program.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAAhAAAA",
+              "Title": "ReservationController.cs",
+              "DocumentMoniker": "D:\\Grupo IV - DPWA\\G4HotelManagement\\G4-HotelManagerDEMO\\G4-HotelManagerDEMO\\Controllers\\ReservationController.cs",
+              "RelativeDocumentMoniker": "G4-HotelManagerDEMO\\Controllers\\ReservationController.cs",
+              "ToolTip": "D:\\Grupo IV - DPWA\\G4HotelManagement\\G4-HotelManagerDEMO\\G4-HotelManagerDEMO\\Controllers\\ReservationController.cs",
+              "RelativeToolTip": "G4-HotelManagerDEMO\\Controllers\\ReservationController.cs",
+              "ViewState": "AQIAAKUAAAAAAAAAAAAqwMMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T22:02:29.589Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-08T22:17:16.878Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\Grupo IV - DPWA\\G4HotelManagement\\G4-HotelManagerDEMO\\G4-HotelManagerDEMO\\Views\\Employee\\Create.cshtml",
-              "RelativeDocumentMoniker": "G4-HotelManagerDEMO\\Views\\Employee\\Create.cshtml",
-              "ToolTip": "D:\\Grupo IV - DPWA\\G4HotelManagement\\G4-HotelManagerDEMO\\G4-HotelManagerDEMO\\Views\\Employee\\Create.cshtml",
-              "RelativeToolTip": "G4-HotelManagerDEMO\\Views\\Employee\\Create.cshtml",
-              "ViewState": "AQIAADYAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-08T22:00:07.949Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\Grupo IV - DPWA\\G4HotelManagement\\G4-HotelManagerDEMO\\G4-HotelManagerDEMO\\Views\\Hotel\\Create.cshtml",
-              "RelativeDocumentMoniker": "G4-HotelManagerDEMO\\Views\\Hotel\\Create.cshtml",
-              "ToolTip": "D:\\Grupo IV - DPWA\\G4HotelManagement\\G4-HotelManagerDEMO\\G4-HotelManagerDEMO\\Views\\Hotel\\Create.cshtml",
-              "RelativeToolTip": "G4-HotelManagerDEMO\\Views\\Hotel\\Create.cshtml",
-              "ViewState": "AQIAADMAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-08T22:00:01.64Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "D:\\Grupo IV - DPWA\\G4HotelManagement\\G4-HotelManagerDEMO\\G4-HotelManagerDEMO\\Views\\Reservation\\Delete.cshtml",
               "RelativeDocumentMoniker": "G4-HotelManagerDEMO\\Views\\Reservation\\Delete.cshtml",
@@ -179,12 +126,11 @@
               "RelativeToolTip": "G4-HotelManagerDEMO\\Views\\Reservation\\Delete.cshtml",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAAQAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-08T21:52:12.221Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-08T21:52:12.221Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 9,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\Grupo IV - DPWA\\G4HotelManagement\\G4-HotelManagerDEMO\\G4-HotelManagerDEMO\\Views\\Reservation\\Edit.cshtml",
               "RelativeDocumentMoniker": "G4-HotelManagerDEMO\\Views\\Reservation\\Edit.cshtml",
@@ -192,12 +138,11 @@
               "RelativeToolTip": "G4-HotelManagerDEMO\\Views\\Reservation\\Edit.cshtml",
               "ViewState": "AQIAABwAAAAAAAAAAAAAACwAAABJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-08T21:50:26.336Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-08T21:50:26.336Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\Grupo IV - DPWA\\G4HotelManagement\\G4-HotelManagerDEMO\\G4-HotelManagerDEMO\\Views\\Reservation\\Create.cshtml",
               "RelativeDocumentMoniker": "G4-HotelManagerDEMO\\Views\\Reservation\\Create.cshtml",
@@ -205,34 +150,32 @@
               "RelativeToolTip": "G4-HotelManagerDEMO\\Views\\Reservation\\Create.cshtml",
               "ViewState": "AQIAAFcAAAAAAAAAAAAuwHUAAABJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-08T21:38:44.86Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-08T21:38:44.86Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ReservationRepository.cs",
-              "DocumentMoniker": "D:\\Grupo IV - DPWA\\G4HotelManagement\\G4-HotelManagerDEMO\\G4-HotelManagerDEMO\\Repositories\\Reservations\\ReservationRepository.cs",
-              "RelativeDocumentMoniker": "G4-HotelManagerDEMO\\Repositories\\Reservations\\ReservationRepository.cs",
-              "ToolTip": "D:\\Grupo IV - DPWA\\G4HotelManagement\\G4-HotelManagerDEMO\\G4-HotelManagerDEMO\\Repositories\\Reservations\\ReservationRepository.cs",
-              "RelativeToolTip": "G4-HotelManagerDEMO\\Repositories\\Reservations\\ReservationRepository.cs",
-              "ViewState": "AQIAADYAAAAAAAAAAAAowAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T21:37:17.678Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Grupo IV - DPWA\\G4HotelManagement\\G4-HotelManagerDEMO\\G4-HotelManagerDEMO\\Views\\Reservation\\Index.cshtml",
               "RelativeDocumentMoniker": "G4-HotelManagerDEMO\\Views\\Reservation\\Index.cshtml",
               "ToolTip": "D:\\Grupo IV - DPWA\\G4HotelManagement\\G4-HotelManagerDEMO\\G4-HotelManagerDEMO\\Views\\Reservation\\Index.cshtml",
               "RelativeToolTip": "G4-HotelManagerDEMO\\Views\\Reservation\\Index.cshtml",
-              "ViewState": "AQIAACQAAAAAAAAAAAAAACwAAAALAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAAuwHQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-04-08T21:32:49.324Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Grupo IV - DPWA\\G4HotelManagement\\G4-HotelManagerDEMO\\G4-HotelManagerDEMO\\Views\\Hotel\\Create.cshtml",
+              "RelativeDocumentMoniker": "G4-HotelManagerDEMO\\Views\\Hotel\\Create.cshtml",
+              "ToolTip": "D:\\Grupo IV - DPWA\\G4HotelManagement\\G4-HotelManagerDEMO\\G4-HotelManagerDEMO\\Views\\Hotel\\Create.cshtml",
+              "RelativeToolTip": "G4-HotelManagerDEMO\\Views\\Hotel\\Create.cshtml",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-08T22:00:01.64Z"
             }
           ]
         }

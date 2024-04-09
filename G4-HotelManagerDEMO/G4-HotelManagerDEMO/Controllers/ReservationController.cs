@@ -75,8 +75,9 @@ namespace G4_HotelManagerDEMO.Controllers
                 string emailTo = "sraaron1@GDD.com";
                 string email = "reservafacilsv@gmail.com";
                 string subject = "¡Reservación creada!";
+                string body = "Test";
 
-                _emailService.SendEmail(emailTo, email, subject);
+                _emailService.SendEmail(emailTo, email, subject, body);
 
 
                 return RedirectToAction(nameof(Index));

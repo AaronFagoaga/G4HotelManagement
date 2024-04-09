@@ -22,8 +22,8 @@ namespace G4_HotelManagerDEMO.Models
 		public DateTime exitDate { get; set; }
 
 		[Required(ErrorMessage = "Ingrese un número válido para el precio de reserva")]
-		[RegularExpression(@"^\d+(\.\d{1,2})?$", ErrorMessage = "El precio debe ser un número válido")]
-		public decimal reservationPrice { get; set; }
+        [RegularExpression(@"^\d+(\.\d+)?$", ErrorMessage = "El precio debe ser un número válido")]
+        public decimal reservationPrice { get; set; }
 		
         [Required(ErrorMessage = "No se ha seleccionado empleado")]
 		[Display(Name = "Emplado")]
